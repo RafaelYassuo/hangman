@@ -96,4 +96,11 @@ export const MainContainer = styled.div<Props>`
       font-size: 0.9rem;
     }
     }
+
+    .centralizer{
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 `

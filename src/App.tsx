@@ -95,7 +95,7 @@ function App() {
         </div>
       </div>
 
-      <div>
+      <div className='centralizer'>
         <CustomForms handleLetterGuess={LetterGuess} />
         
         {message && (
